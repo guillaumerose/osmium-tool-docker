@@ -11,7 +11,7 @@ RUN cmake ..
 RUN make
 
 WORKDIR /code
-RUN git clone https://github.com/osmcode/osmium-tool.git
+RUN git clone https://github.com/guillaumerose/osmium-tool.git
 
 WORKDIR /code/osmium-tool/build
 RUN cmake ..
